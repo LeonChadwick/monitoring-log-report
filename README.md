@@ -21,3 +21,9 @@ Log columns are:
 - enum of {START|END}
 - process id (PID)
 
+
+# IMPORTANT
+
+This app expects log file content to either be piped/redirect into it or the log file to be supplied as sole command
+line argument.
+Running in IDE must be performed by passing the filename or will hang expecting an input pipe that you haven't supplied.
